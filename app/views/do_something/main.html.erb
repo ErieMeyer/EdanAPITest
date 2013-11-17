@@ -1,7 +1,7 @@
 <span class="col-xs-6 col-md-4">
-<h1>Look at this American art</h1>
+<h1>American Arting</h1>
 <a href="/" class="btn btn-lg btn-info"><span class="glyphicon glyphicon-refresh"></span>Another!</a>
-<p><a href="http://twitter.com/home?status= <%= @fields['response']['docs'][0]['descriptiveNonRepeating']['online_media']['media'][0]['idsId'] %> @americanart target="_blank">Share</a> | <a href="https://www.google.com/search?q=<%= @fields['response']['docs'][0]['name'] %>">About</a>
+<p><a href="http://twitter.com/home?status= <%= @fields['response']['docs'][0]['descriptiveNonRepeating']['online_media']['media'][0]['idsId'] %> @americanart >Share</a> | <a href="https://www.google.com/search?q=<%= @fields['response']+['docs']+[0]+['name'] %>">About</a>
 </span>
 <!-- <pre>
 <%= JSON.pretty_generate(@fields) %>
